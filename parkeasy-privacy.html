@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ParkEasy Macau 私隱政策</title>
+<style>
+:root{--fg:#1a1a1a;--muted:#5e5a66;--line:#e6e2ea;--bg:#f7f4f2}
+@media (prefers-color-scheme:dark){:root{--fg:#f2f0f5;--muted:#a9a4b3;--line:#2c2833;--bg:#0e0d12}}
+body{font-family:-apple-system,"PingFang TC","Noto Sans TC",system-ui,sans-serif;max-width:680px;margin:0 auto;padding:32px 20px;line-height:1.75;color:var(--fg);background:var(--bg)}
+h1{font-size:24px}h2{font-size:18px;margin-top:32px}
+table{border-collapse:collapse;width:100%;font-size:15px}th,td{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}
+small,.muted{color:var(--muted)}a{color:inherit}
+</style>
+</head>
+<body>
+<p class="muted"><a href="parkeasy-privacy-en.html">English</a></p>
+<h1>ParkEasy Macau 私隱政策</h1>
+<small>生效日期／最後更新：2026 年 11 月 26 日 · 開發者：PocketLab</small>
+
+<h2>一句講晒：毋須帳戶、不作追蹤、最少資料</h2>
+<p>ParkEasy Macau（由 PocketLab 開發）毋須註冊或登入帳戶，<strong>沒有廣告 SDK、沒有分析 SDK、沒有第三方追蹤</strong>。你的收藏停車場、泊車位置記錄與偏好設定只存於你的裝置本機。只有當你主動開啟 Pro 功能的「低車位提醒」時，App 才會將推送所需的匿名裝置推送令牌、關注停車場與提醒門檻傳送至我們的伺服器，且僅用於發送低車位推送通知，關閉功能即刪除。</p>
+
+<h2>App 儲存與處理甚麼資料</h2>
+<table>
+<tr><th>資料</th><th>用途與例子</th><th>存放位置</th></tr>
+<tr><td>位置資料</td><td>計算你與澳門公共停車場的距離、地圖定位及巡航推薦（不連結個人身份、不作追蹤）</td><td>只於你的裝置本機即時運算，不上傳至我們伺服器</td></tr>
+<tr><td>收藏與小工具群組</td><td>收藏停車場清單、排序、自訂桌面小工具群組</td><td>只存於你的裝置本機（及本機 App Group 供小工具／CarPlay 讀取）</td></tr>
+<tr><td>泊車位置記錄</td><td>停車場名稱、樓層、車位號、備註、泊車相片</td><td>只存於你的裝置本機，不上傳</td></tr>
+<tr><td>介面偏好設定</td><td>外觀模式、預設導航平台、CarPlay 顯示模式</td><td>只存於你的裝置本機</td></tr>
+<tr><td>低車位提醒設定（僅於開啟 Pro 提醒時）</td><td>Apple 裝置推送令牌（APNs Device Token）、所關注停車場 ID、剩餘車位門檻、靜音時段</td><td>PocketLab 伺服器（僅用於發送低車位推送提醒；關閉功能即刪除）</td></tr>
+</table>
+<p>如你使用廣東話語音搜尋，語音輸入會按 iOS 系統機制傳送至 Apple 語音辨識服務；我們不會儲存或錄取你的語音。App 不會讀取你的通訊錄、健康資料或剪貼簿。</p>
+
+<h2>即時車位數據來源</h2>
+<p>澳門公共停車場即時剩餘車位與場地資訊來源為<strong>澳門交通事務局（DSAT）經 data.gov.mo 發佈之開放數據</strong>，由 PocketLab 伺服器定期同步與快取後提供予 App。App 讀取車位及趨勢資料時不會附帶任何個人識別資料。</p>
+
+<h2>低車位推送提醒（Pro）</h2>
+<p>低車位提醒為可選的 ParkEasy Pro 功能，預設關閉。當你於 App「我的 › 低車位提醒」主動開啟並允許通知權限時，App 會將裝置推送令牌、所關注的收藏停車場清單、提醒門檻及靜音時段傳送至我們伺服器，<strong>僅用於</strong>在車位低於門檻時向你的裝置發送推送通知，不會用於廣告、行銷或個人分析。當你關閉低車位提醒功能時，App 會通知伺服器立即刪除該裝置的推送令牌與提醒設定。</p>
+
+<h2>訂閱與購買</h2>
+<p>ParkEasy Pro 月費／年費訂閱及一次性「永久去廣告」購買均經 Apple 透過 App Store 處理。我們只會接收 Apple 提供的訂閱／購買權益狀態以在裝置上解鎖對應功能，看不到你的姓名、Apple ID 或付款資料。</p>
+
+<h2>刪除資料</h2>
+<ul>
+<li>本機資料：可於 App 內清除泊車位置記錄、移除收藏與小工具群組，或直接刪除 App 以清除所有本機資料與相片。</li>
+<li>伺服器推送資料：於 App「我的 › 低車位提醒」關閉「啟用低車位提醒」開關，即會刪除伺服器上對應的裝置推送令牌與關注清單。</li>
+<li>權限管理：你可隨時於 iPhone「設定 › ParkEasy Macau」撤銷位置、相片、麥克風、語音辨識或通知權限。</li>
+</ul>
+
+<h2>兒童</h2>
+<p>ParkEasy Macau 面向駕駛人士提供公共停車場車位查詢服務，不針對 13 歲以下兒童，亦不主動收集兒童個人資料。</p>
+
+<h2>重要聲明</h2>
+<p>本 App 顯示的即時車位、趨勢圖表、車位預測與收費資料均僅供參考，請以停車場現場實際情況及官方告示為準。駕駛時請勿操作手提電話。</p>
+
+<h2>政策更新</h2>
+<p>如本私隱政策有重大改動，我們會更新此頁頂部的生效日期，並於 App 更新說明中告知。</p>
+
+<h2>聯絡我們</h2>
+<p>開發者：PocketLab<br>如有任何私隱疑問或資料刪除查詢，請電郵至 <a href="mailto:appchallengek@gmail.com">appchallengek@gmail.com</a>。</p>
+</body>
+</html>
